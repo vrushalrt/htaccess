@@ -1,0 +1,21 @@
+#.htaccess
+#Author: Vrushal Raut
+
+
+Options +Indexes
+#Options -Indexes
+IndexOptions FancyIndexing
+
+#DirectoryIndex index.php
+DirectoryIndex
+
+IndexIgnore *.txt
+
+AddType application/x-httpd-php .vrushal
+
+<files hidden.txt>
+	order allow,deny
+	deny from all
+</files>
+
+#IndexIgnore *
