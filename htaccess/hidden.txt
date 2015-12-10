@@ -1,1 +1,0 @@
-We try to keep this file hidden from web, so please check code in .htaccess.
